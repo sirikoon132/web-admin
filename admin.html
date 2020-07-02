@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Admin</title>
+</head>
+<style>
+    html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+    @media (min-width:601px) {
+        .col-rs.m6 {
+            width:49.99999%;
+        }
+    }
+    @media (min-width:993px) {
+        .col-rs.l3 {
+         width: 24.99999%;   
+        }
+    }
+    .col-rs {
+        float:left;
+        width:100%
+    }
+    .top, .bottom {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    div {
+        display: block;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+    .navbar-while {
+        color: #000!important;
+        background-color: #fff!important;
+    }
+    .margin-top {
+        margin-top: 16px !important;
+    }
+    .center {
+        text-align: center;
+    }
+    .large {
+        font-size: 36px !important;
+    }
+    .text-white {
+        color: #fff !important;   
+    }
+    .black {
+        color: #fff !important;   
+        background-color: #000 !important;
+    }
+    .padding {
+        padding: 8px 16px !important;
+        
+    }
+    .opacity-min {
+        opacity: 0.75;
+    }
+    .text-light-grey {
+        color: #f1f1f1 !important;
+        line-height: 1.5;
+    }
+    .bg-pic {
+        max-width: 100%;
+        height: auto;   
+    }
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+    .content {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .display-container {
+        position: relative;
+    }
+    .wide {
+        letter-spacing:4px;
+    }
+    .padding-32 {
+        padding-top: 32px !important;
+        padding-bottom: 32px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .container-padding {
+        padding: 0.01em 16px;
+    }
+    .padding-16 {
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    .row-padding {
+        padding: 0 8px;
+    }
+    .margin-bottom {
+        margin-bottom: 16px !important;
+    }
+    .display-topleft {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .border-light-grey {
+        background-color: white!important;
+    }
+    .border-bottom {
+        border-bottom: 1px solid #ccc!important;
+    }
+    .grayscale {
+        filter: grayscale(75%);
+    }
+    .block {
+        display: block;
+        width: 100%;
+    }
+    .opacity {
+        opacity: 0.60;
+    }
+    a {
+        color: white;
+    }
+    a.ex1:hover,a.ex1:active {color: green;}
+    
+</style>
+<body>
+    <div class="top">
+        <nav class="padding navbar-while navbar navbar-expand navbar-light bg-white topbar static-top shadow">
+            <div class="col">
+                <a class="btn btn btn-light" href="#home"> <b>BR</b> Architects</a>
+            </div>
+            <div class="d-none d-lg-block d-md-block d- sm-block right">
+                <a class="btn bg-light padding" href="#projects">Projects</a>
+                <a class="btn bg-light padding" href="#about">About</a>
+                <a class="btn bg-light padding" href="#contact">Contact</a>
+            </div>
+        </nav>
+    </div>
+    <header class="content display-container wide" style="max-width:1500px;" id="home">
+        <img class="bg-pic" src="NowhereInParticular.jpeg"  alt="Architecture" width="1500" height="800">
+        <div class="centered margin-top">
+            <h1 class="large text-white">
+                <span class="padding black opacity-min">
+                    <b>BR</b>
+                </span>
+                <span class="text-light-grey d-none d-sm-block">Architects</span>
+            </h1>
+        </div>
+    </header>
+    <!-- project -->
+    <div class="content padding" style="max-width:1564px">
+        <div class="container-padding padding-32" id="projects">
+            <h3 class="border-bottom border-light-grey padding-16">Projects</h3>
+        </div>
+
+        <div class="row-padding">
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <div class="display-topleft black padding">Summer House</div>
+                    <img src="h1.jpeg" alt="Summer House" style="width:100%">
+                </div>
+            </div>
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <div class="display-topleft black padding">Brick House</div>
+                    <img src="h1.jpeg" alt="Brick House" style="width:100%">
+                </div>
+            </div>
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <div class="display-topleft black padding">Renovated</div>
+                    <img src="h3.jpeg" alt="Renovated" style="width:100%">
+                </div>
+            </div>
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <div class="display-topleft black padding">Barn House</div>
+                    <img src="h3.jpeg" alt="Barn House" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row-padding">
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <div class="display-topleft black padding">Summer House</div>
+                    <img src="h2.jpeg" alt="Summer House" style="width:100%">
+                </div>
+            </div>
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <div class="display-topleft black padding">Brick House</div>
+                    <img src="h2.jpeg" alt="Brick House" style="width:100%">
+                </div>
+            </div>
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <div class="display-topleft black padding">Renovated</div>
+                    <img src="h4.jpeg" alt="Renovated" style="width:100%">
+                </div>
+            </div>
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <div class="display-topleft black padding">Barn House</div>
+                    <img src="h4.jpeg" alt="Barn House" style="width:100%">
+                </div>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="container-padding padding-32" id="about">
+            <h3 class="border-bottom border-light-grey padding-16">About</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+        </div>
+        <div class="row row-padding grayscale m6">
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <img src="p4.jpeg" alt="John" style="width:100%">
+                    <h3>John Doe</h3>
+                    <p class="opacity">CEO & Founder</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <p><button class="btn bg-light block">Contact</button></p>
+                </div>
+            </div>
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <img src="p1.jpeg" alt="Jane" style="width:100%">
+                    <h3>Jane Doe</h3>
+                    <p class="opacity">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <button class="btn bg-light block">Contact</button>
+                </div>
+            </div>
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <img src="p2.jpeg" alt="Mike" style="width: 100%">
+                    <h3>Mike Ross</h3>
+                    <p class="opacity">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>                    
+                    <button class="btn bg-light block">Contact</button>                    
+                </div>
+            </div>
+            <div class="col-rs m6 l3 margin-bottom row-padding">
+                <div class="display-container">
+                    <img src="p3.jpeg" alt="Dan" style="width: 100%">
+                    <h3>Dan Star</h3>
+                    <p class="opacity">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>                    
+                    <button class="btn bg-light block">Contact</button>   
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <div class="container-padding padding-32" id="contact">
+            <h3 class="border-bottom border-light-grey padding-16">Contact</h3>
+            <p>Lets get in touch and talk about your next project.</p>
+            <form>
+                <div class="form-group">
+                    <input class="form-control margin-bottom" name="name" placeholder="Name" required>
+                    <input class="form-control margin-bottom" name="email" placeholder="Email" required>
+                    <input class="form-control margin-bottom" name="subject" placeholder="Subject" required>
+                    <input class="form-control margin-bottom" name="comment" placeholder="Comment" required>
+                </div>
+                <button type="submit" class="btn margin-top margin-bottom black">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+    <div class="container-padding">
+        <img class="bg-pic" src="NowhereInParticular.jpeg"  alt="Architecture" width="1500" height="800">
+    </div>
+    <footer class="center black padding-16 margin-top">
+        <p>Powered by 
+            <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" class="ex1">Bootstrap 4</a>
+        </p>
+    </footer>
+
+</body>
+</html>
